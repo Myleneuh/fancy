@@ -1,0 +1,344 @@
+html {
+  margin: 0;
+}
+
+header {
+  width: 100%;
+  height: 55px;
+  background-color: #373C4A;
+  margin-bottom: 20px;
+}
+
+.header_left {
+  position: relative;
+  float: left;
+  top: 2px;
+}
+
+.header_left > ul {
+  position: relative;
+  width: 300px;
+  height: 20px
+}
+
+.header_left > ul > li {
+  display: inline-block;
+  font-family: 'helvetica';
+  font-size: 15px;
+  color: #9EA0A5;
+  padding: 0px 10px;
+  position: relative;
+}
+
+.header_left > ul > li:hover {
+  color: #D6D8DC;
+  cursor: pointer;
+}
+
+.header_right {
+  position: relative;
+  float: right;
+  top: 2px;
+}
+
+.header_right > ul {
+  position: relative;
+  width: 370px;
+  height: 20px
+}
+
+.header_right > ul > li {
+  display: inline-block;
+  font-family: 'helvetica';
+  font-size: 15px;
+  color: #9EA0A5;
+  padding: 0px 10px;
+  position: relative;
+}
+
+.header_right > ul > li:hover {
+  color: #D6D8DC;
+  cursor: pointer;
+}
+
+body {
+  background-color: #E8E8E8;
+}
+
+.content_main {
+  position: relative;
+  width: 970px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.photo_expo{
+  background-image: url('http://thingd-media-ec4.thefancy.com/default/1001828740998632171_153d63c594ca.jpg');
+  background-repeat: no-repeat;
+  width: 640px;
+  height: 640px;
+  position: relative;
+  float: left;
+  border: 5px solid #FFF;
+  border-radius: 3px;
+}
+
+.info_right {
+  float: right;
+  
+}
+
+.info_box {
+  width: 300px;
+  height: 155px;
+  background-color: #FFF;
+  border-radius: 4px;
+  border: 1px solid #f1f1f1;
+  box-shadow: 0px 1px 0px 0px #D0D1D5;
+  margin-bottom: 15px;
+}
+
+.info_box_title {
+  width: 90%;
+  font-family: "helvetica";
+  font-size: 19px;
+  line-height: 25px;
+  padding: 20px 20px 0px;
+  margin-bottom: 15px;
+  position: relative;
+  color: #383838;
+}
+
+.button_box {
+  height: 35px;
+  border-top: 1px solid #f1f1f1;
+  padding: 15px;
+}
+
+.button_fancy {
+  text-decoration: none;
+  color: #515151;
+  font-family: "helvetica";
+  font-weight: 500;
+  background-color: #F4F4F5;
+  width : auto;
+  line-height: 29px;
+  display: inline-block;
+  border-radius: 3px;
+  border: 1px solid;
+  border-color: #b6b6b6;
+  padding: 3px 10px 0px;
+}
+
+.button_number {
+  text-decoration: none;
+  color: #989898;
+  font-size: 13px;
+  font-family: "helvetica";
+  font-weight: 300;
+  background-color: #F4F4F5;
+  width : auto;
+  line-height: 29px;
+  display: inline-block;
+  border-radius: 3px;
+  border: 1px solid;
+  border-color: #bababa;
+  padding: 3px 10px 0px;
+}
+
+.listes {
+  float: right;
+}
+
+.added_box {
+  width: 300px;
+  height: 140px;
+  background-color: #FFF;
+  border-radius: 4px;
+  border: 1px solid #f1f1f1;
+  box-shadow: 0px 1px 0px 0px #D0D1D5;
+  margin-bottom: 15px;
+}
+
+.added_box > a {
+  text-decoration: none;
+  font-family: "helvetica";
+}
+
+.user_pic {
+  background-image: url('https://thefancy-media-ec1.thefancy.com/UserImages/OPUMO_e7492612b83f.jpg');
+  background-repeat: no-repeat;
+  width: 60px;
+  height: 60px;
+  float: left;
+  margin: 5px 10px;
+  position: relative;
+}
+
+.user_added {
+  position: relative;
+  font-size: 13px;
+  color: #818181;
+  line-height: 6px;
+  margin-top: 20px;
+}
+
+.user_added > h2 {
+  font-size: 15px;
+  color: #383838;
+}
+
+.add_user {
+  top: -42px;
+  right: 15px;
+  position: relative;
+  width: 47px;
+  height 30px;
+  padding: 15px 0px;
+  float: right;
+}
+
+.other {
+  position: relative;
+  width: 300px;
+  height: 53px;
+  float: left;
+  left: -33px;
+  top: -40px;
+  
+}
+
+.other > li > a {
+  width: 52px;
+  height: 52px;
+  display: block;
+  text-decoration: none;
+  border: 1px solid #ececec;
+}
+
+.other > li {
+  list-style: none;
+  display: inline-block;
+}
+
+.other1 {
+  background-image: url('https://resize-ec1.thefancy.com/resize/crop/148/thingd/default/1107604840298582743_add503748aea.jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.other2 {
+  background-image: url('https://resize-ec4.thefancy.com/resize/crop/148/thingd/default/1107600067642004141_52e2efbe7e5b.jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.other3 {
+  background-image: url('https://resize-ec1.thefancy.com/resize/crop/148/thingd/default/1107597896519258775_a8f762c9b891.jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.other4 {
+  background-image: url('https://resize-ec1.thefancy.com/resize/crop/148/thingd/default/1010633584110732121_2ef37061f5e9.jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.other5 {
+  background-image: url('https://resize-ec5.thefancy.com/resize/crop/148/thingd/default/1010585280199000637_8ebc2c39c8cf.jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.added_to {
+  width: 300px;
+  height: 152px;
+  background-color: #FFF;
+  border-radius: 4px;
+  border: 1px solid #f1f1f1;
+  box-shadow: 0px 1px 0px 0px #D0D1D5;
+  margin-bottom: 15px;
+  position: relative;
+}
+
+.added_to > a {
+  text-decoration: none;
+}
+
+.roupas {
+  font-family: "helvetica";
+  position: relative;
+  font-size: 13px;
+  color: #818181;
+  line-height: 18px;
+  width: 270px;
+  padding: 20px 15px;
+}
+
+.roupas > strong {
+  font-size: 15px;
+  color: #383838;
+}
+
+.roupas:hover {
+  background-color: #f1f1f1; 
+}
+
+.more_in {
+  font-family: "helvetica";
+  position: relative;
+  font-size: 13px;
+  color: #818181;
+  line-height: 18px;
+  width: 270px;
+  padding: 20px 15px;
+  border-top: 1px solid #f1f1f1;
+}
+
+.more_in > strong {
+  font-size: 15px;
+  color: #383838;
+}
+
+.more_in:hover {
+  background-color: #f1f1f1; 
+}
+
+.ask_buy {
+  font-family: 'helvetica';
+  font-size: 12px;
+  color: #818181;
+  line-height: 20px;
+  height: 200px;
+}
+
+.ask_buy > a{
+  text-decoration: none;
+  color: #818181;
+}
+
+.content_second {
+  position: relative;
+  width: 970px;
+  margin-left: auto;
+  margin-right: auto;
+  overflow: hidden;
+}
+
+.you_may {
+  font-family: 'helvetica';
+  font-size: 15px;
+  font-weight: 600;
+  color: #373C4A;
+  position: relative;
+  width: 300px;
+}
+
+.recently {
+  font-family: 'helvetica';
+  font-size: 15px;
+  font-weight: 400;
+  color: #A9AAAA;
+  position: relative;
+}
